@@ -167,9 +167,13 @@ h2{font-size:clamp(1.9rem, 3.2vw, 2.6rem);margin-bottom:12px;}
   margin-bottom:18px;
 }
 .hero-sub{
-  max-width:620px;margin:0 auto 34px;
+  max-width:620px;margin:0 auto 12px;
   font-size:1.05rem;color:rgba(255,255,255,.92);
   font-weight:300;
+}
+.hero-local{
+  font-size:.85rem;color:rgba(255,255,255,.75);
+  letter-spacing:.03em;margin-bottom:34px;
 }
 .hero-actions{
   display:flex;gap:16px;justify-content:center;flex-wrap:wrap;
@@ -270,7 +274,8 @@ h2{font-size:clamp(1.9rem, 3.2vw, 2.6rem);margin-bottom:12px;}
 .loc-inner{
   display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start;
 }
-.loc-info h2{margin-bottom:28px;}
+.loc-info h2{margin-bottom:12px;}
+.loc-intro{color:var(--ink-soft);font-size:.95rem;margin-bottom:28px;}
 .info-card{
   background:#fff;border-radius:var(--radius);
   padding:26px 28px;box-shadow:var(--shadow);
